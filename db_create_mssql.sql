@@ -29,7 +29,7 @@ SET ANSI_PADDING OFF
 GO
 
 -- создает таблицу telegram-сообщений
-CREATE TABLE [telegram_chats](
+CREATE TABLE [telegram_messages](
 	[id] [varchar](8) NULL,
 	[app] [varchar](4) NULL,
 	[forms] [varchar](6) NULL,
